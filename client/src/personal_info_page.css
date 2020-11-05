@@ -1,0 +1,255 @@
+.basicpage {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.p {
+    text-align: center;
+}
+.Button {
+    color: #0099E5;
+    align-items: center;
+    text-align: center;
+}
+
+.logo2 {
+    height: 100px;
+    width: 180px;
+}
+
+.logo3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+.text-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login {
+    width: 400px;
+}
+
+.username {
+    float: left;
+}
+
+.usernameinput {
+    float: right;
+}
+
+
+hr {
+    border: 1px solid #0099E5;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+label {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    margin-right: 5%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.navbar .li img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: left;
+}
+
+.navbar li {
+    float: right;
+}
+
+.navbar .lilogo {
+    float: left;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.navbar li a {
+    display: block;
+    color: #666666;
+    text-align: center;
+    padding: 14px 16px;
+    padding-top: 40px;
+    text-decoration: none;
+}
+
+.inline-block {
+    display: inline-block;
+    margin-right: 1px;
+    width: 150px;
+}
+
+.inline-block2 {
+    display: inline-block;
+    width: 150px;
+}
+
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+.padding-left {
+    padding-left: 90px;
+}
+
+.padding-left2 {
+    padding-left: 92px;
+}
+
+.padding-left3 {
+    padding-left: 80px;
+}
+
+.HeightForm {
+    text-align: center;
+}
+
+.box {
+    background-color: #E8E8E8;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.box2 {
+    background-color: #E8E8E8;
+    width: 300px;
+    padding: 100px;
+    margin: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 15% auto 15% 15% auto;
+    align-content: end;
+    grid-gap: 10px;
+    text-align: center;
+}
+
+.grid-container_2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-content: end;
+    grid-gap: 10px;
+    text-align: center;
+}
+.grid-container_3 {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    align-content: end;
+    grid-gap: 10px;
+    text-align: center;
+}
+
+.label1 {
+    display: block;
+    text-align: center;
+}
+
+.submit {
+    text-align: center;
+}
+
+/*the container must be positioned relative:*/
+.custom-select {
+    position: relative;
+    font-family: Arial;
+}
+
+.custom-select select {
+    display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+    background-color: rgb(78, 78, 78);
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+  .dropdown {
+    text-align: left;
+  }
+
+  .dateOfBirth div {
+    float: left;
+  }
+
+.bannerImage {
+  width: 100%;
+}
+
